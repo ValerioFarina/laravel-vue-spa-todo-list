@@ -1,0 +1,23 @@
+@import "./../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+[v-cloak] {
+    display: none;
+}
+
+#items-container {
+    background-color: #80808021;
+
+    li {
+        &:hover {
+            background-color: #cadfff;
+        }
+
+        .checked {
+            text-decoration: line-through;
+        }
+
+        .fa-trash-alt {
+            color: red;
+        }
+    }
+}
